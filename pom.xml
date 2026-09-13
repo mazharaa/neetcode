@@ -27,7 +27,7 @@
     <plugins>
       <!-- Problem dirs are not Maven's default src/test/java layout,
            so register each blind-75/*/java dir as a test source.
-           Single root covers all present/future Java problems. -->
+           One entry per problem java dir; add a line for each new problem. -->
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
@@ -41,7 +41,9 @@
             </goals>
             <configuration>
               <sources>
-                <source>blind-75</source>
+                <source>blind-75/arrays-and-hashing/contains-duplicate/java</source>
+                <source>blind-75/arrays-and-hashing/two-sum/java</source>
+                <source>blind-75/arrays-and-hashing/valid-anagram/java</source>
               </sources>
             </configuration>
           </execution>
