@@ -44,6 +44,8 @@
                 <source>blind-75/arrays-and-hashing/contains-duplicate/java</source>
                 <source>blind-75/arrays-and-hashing/two-sum/java</source>
                 <source>blind-75/arrays-and-hashing/valid-anagram/java</source>
+                <source>blind-75/arrays-and-hashing/group-anagrams/java</source>
+                <source>blind-75/stacks/valid-parentheses/java</source>
               </sources>
             </configuration>
           </execution>
